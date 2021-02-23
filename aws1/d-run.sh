@@ -9,7 +9,7 @@ args=(
   -e MYSQL_ALLOW_EMPTY_PASSWORD=yes
 #  -it --rm
   -d
-  groonga/mroonga:mysql80-latest
+  groonga/mroonga:mysql8023_mroonga1100
 )
 docker run "${args[@]}"
 
