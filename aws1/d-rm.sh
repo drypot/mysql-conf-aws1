@@ -1,4 +1,4 @@
 #!/bin/bash
-docker stop mariadb
-docker rm mariadb
+docker stop mysql
+docker rm mysql
 

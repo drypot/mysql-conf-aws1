@@ -1,2 +1,2 @@
 #!/bin/bash
-docker update --restart unless-stopped mariadb
+docker update --restart unless-stopped mysql
