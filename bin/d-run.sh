@@ -2,7 +2,7 @@
 args=(
   --name mysql
   -p 3306:3306
-  --mount type=bind,source=/data/mysql/mysql-conf/aws1/conf.d,target=/etc/mysql/conf.d
+  --mount type=bind,source=/data/mysql/mysql-conf-aws1/conf.d,target=/etc/mysql/conf.d
   --mount type=bind,source=/data/mysql/mysql,target=/var/lib/mysql
   --mount type=bind,source=/data/mysql/backup,target=/backup
   -e MYSQL_ROOT_PASSWORD=
