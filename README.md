@@ -1,4 +1,4 @@
-# nginx-conf
+# MySQL Conf
 
-개인적으로 운영하는 웹서버들의 mysql.conf.
+AWS 서버의 mysql.conf.
 
