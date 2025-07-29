@@ -1,2 +1,7 @@
 #!/bin/bash
-docker exec -it mysql bash
+arg=(
+  --interactive --tty
+  mysql 
+  bash
+)
+docker exec "${arg[@]}"
